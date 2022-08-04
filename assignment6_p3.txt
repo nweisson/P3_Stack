@@ -1,0 +1,9 @@
+(1)The worst time complexity for the pop() fucntion of the Stack would be O(1) because it is not a linear function. 
+The pop function does not need to iterate through every member in the list, in the case of using a vector we only need to access the topmost element within it. 
+Therefore, it would be O(1) because pop can be accomplished in constant time.
+
+(2)The worst time complexity for the postfix_calc(string) function would be O(n) because it is linear. 
+Unlike the pop function, that post fix function depends on the number of characters within the string expression. 
+Therefore it needs to evaluate each character independently. Therefore, it would be O(n) because it is accomplished in a linear manner.
+
+ 
